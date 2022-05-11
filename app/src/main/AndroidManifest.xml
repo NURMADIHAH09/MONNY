@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MONNY">
         <activity
+            android:name=".loginpage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
