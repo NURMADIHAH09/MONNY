@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/Users/HP/Documents/GitHub/MONNY/app/src/main/res/layout/activity_loginpage.xml" value="0.25" />
         <entry key="..\:/Users/HP/Documents/GitHub/MONNY/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/HP/Documents/GitHub/MONNY/app/src/main/res/layout/activity_securitypage.xml" value="0.215625" />
+        <entry key="..\:/Users/HP/Documents/GitHub/MONNY/app/src/main/res/layout/activity_settingpage.xml" value="0.215625" />
+        <entry key="..\:/Users/HP/Documents/GitHub/MONNY/app/src/main/res/layout/activity_signuppage.xml" value="0.215625" />
       </map>
     </option>
   </component>

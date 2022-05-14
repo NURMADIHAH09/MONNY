@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settingpage"
+    android:background="@drawable/greenbg">
+
+
+    <ImageView
+        android:id="@+id/settingpge"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/settingpg" />
+
+    <ImageView
+        android:id="@+id/settingset"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        app:srcCompat="@drawable/settingicon" />
+
+    <Button
+        android:id="@+id/profilesett"
+        android:layout_width="470dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="6dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="@drawable/profilebutton" />
+
+    <Button
+        android:id="@+id/notifisett"
+        android:layout_width="470dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="201dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="@drawable/notifibutton" />
+
+    <Button
+        android:id="@+id/securitysett"
+        android:layout_width="470dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="2dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="@drawable/securitybutton" />
+
+    <Button
+        android:id="@+id/aboutsett"
+        android:layout_width="470dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginBottom="216dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="@drawable/aboutbutton" />
+
+    <Button
+        android:id="@+id/nextsett"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="295dp"
+        android:layout_marginRight="295dp"
+        android:layout_marginBottom="13dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="@drawable/nextset" />
+
+    <Button
+        android:id="@+id/logoutsett"
+        android:layout_width="470dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="129dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="@drawable/logoutbutton" />
+</RelativeLayout>
