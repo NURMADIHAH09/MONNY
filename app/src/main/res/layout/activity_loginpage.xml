@@ -70,10 +70,11 @@
         android:layout_marginRight="19dp"
         android:layout_marginBottom="149dp"
         android:background="?android:attr/selectableItemBackground"
-        android:foreground="@drawable/nextbutton" />
+        android:foreground="@drawable/nextbutton"
+        />
 
     <EditText
-        android:id="@+id/usernamelog"
+        android:id="@+id/emaillogin"
         android:layout_width="189dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -83,7 +84,7 @@
         android:layout_marginEnd="93dp"
         android:layout_marginRight="93dp"
         android:ems="10"
-        android:hint="username" />
+        android:hint="email" />
 
     <Button
         android:id="@+id/fingerprint"
@@ -94,6 +95,20 @@
         android:layout_marginBottom="232dp"
         android:background="?android:attr/selectableItemBackground"
         android:foreground="@drawable/usefingerprint" />
+
+    <Button
+        android:id="@+id/backlog"
+        android:layout_width="70dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="-5dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="@drawable/back"
+        android:onClick="backtomain"/>
 
 
 </RelativeLayout>

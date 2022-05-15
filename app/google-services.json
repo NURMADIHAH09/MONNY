@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "85513350824",
+    "project_id": "monny-daily-expenses-tracker",
+    "storage_bucket": "monny-daily-expenses-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85513350824:android:6d2de1065940df3fc1dc9d",
+        "android_client_info": {
+          "package_name": "com.example.monny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85513350824-3en9u7qfd27dnen0qou8m3q1q83fb0s7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXM3OR3mpw9mzUh96kUlRS7Y4ZWWCA7CM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85513350824-3en9u7qfd27dnen0qou8m3q1q83fb0s7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

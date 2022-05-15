@@ -16,11 +16,12 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="101dp"
-        android:layout_marginRight="101dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
         android:layout_marginBottom="251dp"
         android:background="?android:attr/selectableItemBackground"
-        android:foreground="@drawable/login" />
+        android:foreground="@drawable/login"
+        android:onClick="logintonextpage"/>
 
     <Button
         android:id="@+id/signupgt"
@@ -30,10 +31,11 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="109dp"
-        android:layout_marginRight="109dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
         android:layout_marginBottom="173dp"
         android:background="?android:attr/selectableItemBackground"
-        android:foreground="@drawable/signup" />
+        android:foreground="@drawable/signup"
+        android:onClick="signuptonextpage" />
 
 </RelativeLayout>
